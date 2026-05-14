@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Dashboard</title>
+
+    <link rel="stylesheet"
+          href="style.css">
+
+</head>
+
+<body>
+
+    <h1>Blog Dashboard 📝</h1>
+
+    
+
+    <div class="container">
+
+        <input
+            type="text"
+            id="title"
+            placeholder="Post Title"
+        >
+
+        <textarea
+            id="content"
+            placeholder="Write your blog..."
+        ></textarea>
+
+        <button onclick="createPost()">
+            Create Post
+        </button>
+
+    </div>
+
+    <div id="posts"></div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
